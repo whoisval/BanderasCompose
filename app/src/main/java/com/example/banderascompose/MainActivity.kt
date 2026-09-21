@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BanderasComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BanderaSpain(modifier = Modifier.padding(innerPadding))
+                    BanderaColombia(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
